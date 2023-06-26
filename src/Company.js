@@ -149,6 +149,7 @@ In 1980, SRI Founder, Jim E. Hughes was working for treasurers to collect delinq
                             backgroundColor: "black",
                             color: "white",
                             marginTop: "2rem",
+                            marginBottom: "5rem",
                             width: "15rem",
                             height: "3rem"
                         }}
