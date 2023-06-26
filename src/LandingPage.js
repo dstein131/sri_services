@@ -12,7 +12,7 @@ function LandingPage() {
       <div
         style={{
           width: "100%",
-          height: "35rem",
+          height: "25rem",
           backgroundImage: `url(${image1})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -36,13 +36,14 @@ function LandingPage() {
       <div
         style={{
           width: "100%",
-          height: "35rem",
+          height: "25rem",
           backgroundImage: `url(${image2})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "35rem",
           backgroundPosition: "80% 75px",
           display: "flex",
           alignItems: "center",
+          marginTop: "2rem",
         }}>
         <div className="container-fluid d-flex justify-content-center align-items-center">
           <div className="d-flex justify-content-center">
