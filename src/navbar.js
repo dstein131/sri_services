@@ -32,9 +32,8 @@ const Navbar = () => {
                 Resources
               </Link>
               <ul className="dropdown-menu" aria-labelledby="resourcesDropdown">
-                <li><Link className="dropdown-item" to="/resources/page1">Page 1</Link></li>
-                <li><Link className="dropdown-item" to="/resources/page2">Page 2</Link></li>
-                <li><Link className="dropdown-item" to="/resources/page3">Page 3</Link></li>
+                <li><Link className="dropdown-item" to="https://properties.sriservices.com/properties?searchText=&saleType=&saleFormat=&state=&county=&saleStatus=&saleDate=AF&saleDateVal=&sortBy=&sortOrder=">Search Property</Link></li>
+            
               </ul>
             </li>
           
