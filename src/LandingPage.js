@@ -126,7 +126,7 @@ function LandingPage() {
         className="third-section"
         style={{
           width: "100%",
-          height: "35rem",
+          minHeight: "35rem",
           display: "flex",
           flexWrap: "wrap",
           alignItems: "center",
