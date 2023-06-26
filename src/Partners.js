@@ -94,7 +94,7 @@ function Partners() {
                             width: "15rem",
                             height: "3rem"
                         }}
-                        // onClick={() => window.location.href = 'tel:1-800-800-9588'}
+                      
                         >
                         OPEN REQUEST
                         </button>
