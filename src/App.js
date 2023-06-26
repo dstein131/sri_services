@@ -10,16 +10,12 @@ function App() {
     <Router>
       <SecondaryNavbar />
       <Navbar />
-      <div className="App">
-        <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <p></p>
-        </header>
+      
         <Routes>
           <Route path="/" element={<LandingPage />} />
         </Routes>
         <Footer />
-      </div>
+     
     </Router>
   );
 }
