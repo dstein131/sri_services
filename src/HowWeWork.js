@@ -45,9 +45,14 @@ function HowWeWork() {
             style={{
                 width: "40%",
                 color: "#F26B3F",
-                wordBreak: "break-word",
+              
             }}>
-                <h3>Looking to stay in the loop on upcoming auctions, sales, and manage your favorite properties?</h3>
+                <h4
+                style={{
+                    marginRight: "1rem"
+                }}
+                
+                >Looking to stay in the loop on upcoming auctions, sales, and manage your favorite properties?</h4>
             </div>
             <div 
             style={{
@@ -77,7 +82,7 @@ function HowWeWork() {
                 color: "White",
                
             }}
-            >Govertnment Partners</h1>
+            >Government Partners</h1>
             <h5
              style={{
                 color: "White",
