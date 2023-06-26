@@ -143,16 +143,20 @@ In 1980, SRI Founder, Jim E. Hughes was working for treasurers to collect delinq
                     style={{
                         height: "7rem"
                     }}>
-                        <button
-                         className="btn rounded-pill"
-                         style={{
-                           backgroundColor: "black",
-                           color: "white",
-                           marginRight: "1rem", // Space between buttons
-                           width: "15rem",
-                           height: "3rem"
-                            }}
-                        >GIVE US A CALL</button>
+                    <button
+                        className="btn rounded-pill"
+                        style={{
+                            backgroundColor: "black",
+                            color: "white",
+                            marginTop: "2rem",
+                            width: "15rem",
+                            height: "3rem"
+                        }}
+                        onClick={() => window.location.href = 'tel:1-800-800-9588'}
+                        >
+                        GIVE US A CALL
+                        </button>
+
                         </div>
 
 
