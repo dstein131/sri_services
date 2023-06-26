@@ -1,9 +1,16 @@
 import React from "react";
 import image1 from "../src/images/sri-how-we-work-header.png";
 import image2 from "../src/images/sri-government-partners.png";
+import image3 from "../src/images/sri-what-we-value-overlay.png";
+
+import { Link } from 'react-router-dom';
+
+
+
 
 function HowWeWork() {
     return (
+     
         <div>
            <div
         style={{
@@ -81,13 +88,59 @@ function HowWeWork() {
 
 
 
+        <div
+        style={{
+            width: "100%",
+            minHeight: "35rem",
+            backgroundImage: `url(${image3})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "5rem",
+            backgroundPosition: "10% 75px",
+            display: "flex",
+            flexWrap: "wrap",
+            alignItems: "center",
+            justifyContent: "center",
+            borderRight: "1px solid #F26B3F",
+            paddingLeft: "7rem",
+        }}>
+            <div
+            style={{
+                width: "40%",
+                // color: "#F26B3F",
+                wordBreak: "break-word",
+            }}>
+                <h4>WHAT WE VALUE</h4>
+                <p>
+                Relationships are the heart of our business. Our success is driven by our dedication to our clients’ needs, maintaining steady communication throughout all processes, and building lasting partnerships rooted in trust.
+                </p>
+            </div>
 
+            <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "60%",
+                padding: "2rem",
+                color: "#F26B3F",
+            }}>
+                <h2>Learn more about our history and who we are.</h2>
+                <Link to="/company" className="btn rounded-pill" style={{ backgroundColor: "black", color: "white", marginTop: "2rem", width: "15rem", height: "3rem", textAlign: "center" }}>
+  MEET THE TEAM
+</Link>
+
+
+            </div>
+
+            </div>
 
 
 
 
 
         </div>
+
     );
     }
 
