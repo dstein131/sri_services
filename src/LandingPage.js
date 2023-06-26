@@ -239,7 +239,7 @@ function LandingPage() {
             width: "100%",
             display: "flex",
             flexDirection: "row",
-            flexWrap: "wrap",
+            // flexWrap: "wrap",
             // border: "1px solid black",
           }}
         >
@@ -264,7 +264,11 @@ function LandingPage() {
             >
               WHAT WE VALUE
             </h5>
-            <p>
+            <p
+                style={{
+                    minWidth: "100%"
+                }}
+            >
               Relationships are the heart of our business. Our success is
               driven by our dedication to our clients’ needs, maintaining
               steady communication throughout all processes, and building
@@ -289,7 +293,7 @@ function LandingPage() {
               style={{
                 backgroundColor: "black",
                 color: "white",
-                width: "15rem",
+                minWidth: "14rem",
                 height: "3rem",
               }}
             >
