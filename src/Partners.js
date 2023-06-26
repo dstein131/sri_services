@@ -156,6 +156,32 @@ function Partners() {
                 </div>
             </div>
 
+            <center><div
+        style={{
+            borderTop: "1px solid #F26B3F",
+            width: "80%",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            height: "25rem",
+            color: "#F26B3F",
+        }}>
+            <h2>Interested in finding a partner to simplify your workload?</h2>
+            <button
+                        className="btn rounded-pill"
+                        style={{
+                            backgroundColor: "black",
+                            color: "white",
+                            margin: "2rem",
+                            width: "15rem",
+                            height: "3rem"
+                        }}
+                      
+                        >
+                        CONTACT US
+                        </button>
+            </div></center>
 
 
 
