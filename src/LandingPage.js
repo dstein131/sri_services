@@ -10,6 +10,8 @@ function LandingPage() {
     <div>
     <div
       style={{
+        marginTop: "none !important",
+        paddingTop: "none !important",
         width: "100%",
         height: "35rem",
         backgroundImage: `url(${image1})`,
