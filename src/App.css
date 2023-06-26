@@ -113,3 +113,14 @@
     font-family: 'Akagi Pro', sans-serif;
   }
 
+  @media (max-width: 768px) {
+    .fluidity {
+      height: 10rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .fluidity {
+      height: 5rem;
+    }
+  }
