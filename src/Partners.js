@@ -1,6 +1,7 @@
 import React from "react";
 import image1 from "../src/images/sri-government-partners.png";
 import image2 from "../src/images/sri-partners-request-a-partner-account.png";
+import image3 from "../src/images/sri-partners-why-sri.png";
 function Partners() {
     return (
         <div>
@@ -100,6 +101,60 @@ function Partners() {
                         </button>
          
         </div>
+        <div
+        style={{
+          width: "100%",
+          minHeight: "25rem",
+          display: "flex",
+          marginTop: "2rem",
+          marginBottom: "2rem",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "center",
+        
+        }}>
+            <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "start",
+                justifyContent: "center"
+            }}>
+          <h2 style={{ marginLeft: "2rem" }}>
+                Why SRI?
+            </h2>
+            <ul><b>Delinquent Taxes</b>
+            <li>Delinquent Lists</li>
+            <li>Redemption</li>
+            <li>Issuance</li>
+            </ul>
+            <ul><b>Sheriff Sales</b>
+            </ul>
+            <ul><b>Tax Sale Processing</b></ul>
+            <ul><b>Tax Sale Processing Auctions</b></ul>
+            <ul><b>Mortgage Foreclosure Processing</b>
+            <li>Working with Lawyers</li>
+            </ul>
+            <ul><b>Mortgage Foreclosure Auctions</b>
+            <li>Guiding Buyers</li>
+            </ul>
+            </div>
+
+            <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "start",
+                justifyContent: "center",
+                
+            }}>
+                <img src={image3} alt="image3" style={{ width: "20rem",
+                marginLeft: "2rem",
+                marginRight: "2rem"
+            
+            }} />
+                </div>
+            </div>
 
 
 
