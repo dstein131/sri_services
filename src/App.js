@@ -6,6 +6,7 @@ import LandingPage from "./LandingPage";
 import Company from "./Company";
 import HowWeWork from "./HowWeWork";
 import Partners from "./Partners";
+import Investing from "./Investing";
 import Footer from "./Footer";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/company" element={<Company />} />
           <Route path="/work" element={<HowWeWork />} />
           <Route path="/partners" element={<Partners />} />
+          <Route path="/investing" element={<Investing />} />
         </Routes>
         <Footer />
      
