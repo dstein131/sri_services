@@ -11,8 +11,7 @@ function LandingPage() {
     <div>
       <div
         style={{
-          marginTop: "none !important",
-          paddingTop: "none !important",
+         
           width: "100%",
           height: "35rem",
           backgroundImage: `url(${image1})`,
@@ -28,7 +27,7 @@ function LandingPage() {
           <h1
             style={{
               color: "#F26B3F",
-              width: "50rem",
+              maxWidth: "50rem",
               wordWrap: "break-word",
             }}
           >
@@ -65,15 +64,23 @@ function LandingPage() {
 
           <div
             style={{
-              width: "50rem",
+              maxWidth: "50rem",
               wordWrap: "break-word",
               display: "flex",
               flexWrap: "wrap",
               flexDirection: "column",
               marginLeft: "5rem",
+              marginRight: "5rem",
+              alignItems: "center",
+              justifyContent: "center",
             }}
           >
-            <p>
+            <p 
+                style={{
+                    maxWidth: "50rem",
+                    wordWrap: "break-word"
+                }}
+            >
               Whether you’re looking for a long-term partner to help manage
               delinquent tax collections, government auctions, tax lien sales,
               or foreclosures, or you’re an investor looking to purchase
