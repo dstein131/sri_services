@@ -11,7 +11,6 @@ function LandingPage() {
     <div>
       <div
         style={{
-         
           width: "100%",
           height: "35rem",
           backgroundImage: `url(${image1})`,
@@ -20,8 +19,7 @@ function LandingPage() {
           backgroundPosition: "right top",
           display: "flex",
           alignItems: "center",
-        }}
-      >
+        }}>
         <div className="container-fluid">
           <h1 style={{ color: "white" }}>SRI</h1>
           <h1
@@ -29,8 +27,7 @@ function LandingPage() {
               color: "#F26B3F",
               maxWidth: "50rem",
               wordWrap: "break-word",
-            }}
-          >
+            }}>
             Your partners for delinquent tax recovery, property auctions, and
             foreclosure services.
           </h1>
@@ -46,8 +43,7 @@ function LandingPage() {
           backgroundPosition: "80% 75px",
           display: "flex",
           alignItems: "center",
-        }}
-      >
+        }}>
         <div className="container-fluid d-flex justify-content-center align-items-center">
           <div className="d-flex justify-content-center">
             <img
@@ -73,19 +69,17 @@ function LandingPage() {
               marginRight: "5rem",
               alignItems: "center",
               justifyContent: "center",
-            }}
-          >
+            }}>
             <p 
                 style={{
                     maxWidth: "50rem",
                     wordWrap: "break-word"
-                }}
-            >
-              Whether you’re looking for a long-term partner to help manage
-              delinquent tax collections, government auctions, tax lien sales,
-              or foreclosures, or you’re an investor looking to purchase
-              property at auction, SRI partners with you to ensure your goals
-              are met efficiently, effectively, and as simply as possible.
+                }}>
+                    Whether you’re looking for a long-term partner to help manage
+                    delinquent tax collections, government auctions, tax lien sales,
+                    or foreclosures, or you’re an investor looking to purchase
+                    property at auction, SRI partners with you to ensure your goals
+                    are met efficiently, effectively, and as simply as possible.
             </p>
             <h3 style={{ color: "#F26B3F" }}>
               Looking to stay in the loop on upcoming auctions, sales, and
@@ -98,8 +92,8 @@ function LandingPage() {
                 flexDirection: "row",
                 justifyContent: "center",
                 marginTop: "2rem",
-              }}
-            >
+              }}>
+              <a href="https://properties.sriservices.com/properties?searchText=&saleType=&saleFormat=&state=&county=&saleStatus=&saleDate=AF&saleDateVal=&sortBy=&sortOrder=">
               <button
                 className="btn rounded-pill"
                 style={{
@@ -108,21 +102,19 @@ function LandingPage() {
                   marginRight: "1rem", // Space between buttons
                   width: "15rem",
                   height: "3rem",
-                }}
-              >
-                SEARCH LISTINGS
+                }}>
+                    SEARCH LISTINGS
               </button>
-
+                </a>
               <button
                 className="btn rounded-pill"
                 style={{
-                  backgroundColor: "#f36B3f",
-                  color: "white",
-                  width: "15rem",
-                  height: "3rem",
-                }}
-              >
-                SEARCH AUCTIONS
+                    backgroundColor: "#f36B3f",
+                    color: "white",
+                    width: "15rem",
+                    height: "3rem",
+                }}>
+                    SEARCH AUCTIONS
               </button>
             </div>
           </div>
@@ -138,8 +130,7 @@ function LandingPage() {
           flexWrap: "wrap",
           alignItems: "center",
           justifyContent: "space-around",
-        }}
-      >
+        }}>
         <div
           className="gauctions"
           style={{
@@ -156,19 +147,17 @@ function LandingPage() {
             // marginRight: "3rem",
             padding: "2rem",
             color: "white",
-          }}
-        >
+          }}>
           <h2>Government Auctions</h2>
           <p
             style={{
               marginTop: "2rem",
               marginBottom: "2rem",
-            }}
-          >
-            As a government official, managing delinquent tax collections and
-            auctions can be daunting tasks. When you partner with SRI, we take
-            care of all the details, allowing you to focus on taxpayers while
-            we work to ensure collections and auctions are conducted seamlessly.
+            }}>
+                As a government official, managing delinquent tax collections and
+                auctions can be daunting tasks. When you partner with SRI, we take
+                care of all the details, allowing you to focus on taxpayers while
+                we work to ensure collections and auctions are conducted seamlessly.
           </p>
           <button
             className="btn rounded-pill"
@@ -176,9 +165,8 @@ function LandingPage() {
               backgroundColor: "white",
               width: "15rem",
               height: "3rem",
-            }}
-          >
-            LEARN MORE
+            }}>
+                LEARN MORE
           </button>
         </div>
         <div
@@ -196,19 +184,17 @@ function LandingPage() {
             flexDirection: "column",
             color: "white",
             padding: "2rem",
-          }}
-        >
+          }}>
           <h2>Investing in Property</h2>
           <p
             style={{
               marginTop: "2rem",
               marginBottom: "2rem",
-            }}
-          >
-            Whether you’re a seasoned or novice property investor, SRI helps
-            streamline each step, from finding properties, understanding
-            foreclosure sales, and assisting you through the auction and
-            purchase process.
+            }}>
+                Whether you’re a seasoned or novice property investor, SRI helps
+                streamline each step, from finding properties, understanding
+                foreclosure sales, and assisting you through the auction and
+                purchase process.
           </p>
           <button
             className="btn rounded-pill"
@@ -216,29 +202,26 @@ function LandingPage() {
               backgroundColor: "white",
               width: "15rem",
               height: "3rem",
-            }}
-          >
-            LEARN MORE
+            }}>
+                LEARN MORE
           </button>
         </div>
       </div>
       {/* end third section */}
       {/* fourth section */}
       <div
-  style={{
-    width: "100%",
-    minHeight: "35rem",
-    backgroundImage: `url(${image6})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "5rem",
-    backgroundPosition: "10% 75px",
-    display: "flex",
-    flexWrap: "wrap",
-    alignItems: "center",
-    justifyContent: "center",
-  }}
->
-
+        style={{
+            width: "100%",
+            minHeight: "35rem",
+            backgroundImage: `url(${image6})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "5rem",
+            backgroundPosition: "10% 75px",
+            display: "flex",
+            flexWrap: "wrap",
+            alignItems: "center",
+            justifyContent: "center",
+        }}>
         <div
           style={{
             marginLeft: "20rem",
@@ -248,8 +231,7 @@ function LandingPage() {
             flexDirection: "row",
             // flexWrap: "wrap",
             // border: "1px solid black",
-          }}
-        >
+          }}>
           <div
             style={{
               display: "flex",
@@ -260,26 +242,23 @@ function LandingPage() {
               width: "50%",
               borderRight: "1px solid #f36B3f",
               padding: "2rem",
-            }}
-          >
+            }}>
             <h5
               style={{
                 color: "grey",
                 float: "left",
                 marginBottom: "1rem",
-              }}
-            >
-              WHAT WE VALUE
+              }}>
+                WHAT WE VALUE
             </h5>
             <p
                 style={{
                     minWidth: "100%"
-                }}
-            >
-              Relationships are the heart of our business. Our success is
-              driven by our dedication to our clients’ needs, maintaining
-              steady communication throughout all processes, and building
-              lasting partnerships rooted in trust.
+                }}>
+                Relationships are the heart of our business. Our success is
+                driven by our dedication to our clients’ needs, maintaining
+                steady communication throughout all processes, and building
+                lasting partnerships rooted in trust.
             </p>
           </div>
           <div
@@ -290,8 +269,7 @@ function LandingPage() {
               justifyContent: "center",
               width: "50%",
               padding: "2rem",
-            }}
-          >
+            }}>
             <h5 style={{ color: "#f36B3f", marginBottom: "1rem" }}>
               Learn more about our history and who we are.
             </h5>
@@ -302,9 +280,8 @@ function LandingPage() {
                 color: "white",
                 minWidth: "14rem",
                 height: "3rem",
-              }}
-            >
-              MEET THE TEAM
+              }}>
+                MEET THE TEAM
             </button>
           </div>
         </div>
