@@ -37,11 +37,14 @@ const Navbar = () => {
                 <li><Link className="dropdown-item" to="/resources/page3">Page 3</Link></li>
               </ul>
             </li>
+          
+                
             <li className="nav-item">
-              <Link className="nav-link" to="/support">Support</Link>
+  <Link className="nav-link" to="https://sriservices.com/support/">Support</Link>
+
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/help">Help</Link>
+              <Link className="nav-link" to="https://help.sriservices.com/knowledge?__hstc=199601388.05e43f98018768f20d1dd3fb860ba766.1685564802941.1687804007782.1687812803844.5&__hssc=199601388.15.1687812803844&__hsfp=771306454">Help</Link>
             </li>
           </ul>
         </div>
