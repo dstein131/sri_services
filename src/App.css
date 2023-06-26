@@ -37,3 +37,79 @@
   }
 }
 
+.header-section {
+  background-image: url(../src/images/sri-home-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 2rem;
+}
+
+.header-title {
+  color: white;
+}
+
+.header-subtitle {
+  color: #F26B3F;
+  word-wrap: break-word;
+}
+
+.what-we-do-section {
+  background-image: url(../src/images/sri-what-we-do-overlay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+.what-we-do-content {
+  word-wrap: break-word;
+}
+
+.what-we-do-cta {
+  color: #F26B3F;
+}
+
+.btn-cta {
+  background-color: #f36B3f;
+  color: white;
+  margin-right: 1rem;
+  width: 15rem;
+  height: 3rem;
+}
+
+.btn-learn-more {
+  background-color: white;
+  width: 15rem;
+  height: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header-subtitle, .what-we-do-content {
+    max-width: 100%;
+  }
+
+  .btn-cta {
+    width: auto;
+    margin: 0.5rem;
+  }
+
+  .btn-learn-more {
+    width: auto;
+    height: auto;
+  }
+}
+
+  @font-face {
+    font-family: 'Akagi Pro';
+    src: url('path/to/akagipro-medium.otf') format('opentype');
+    /* Add additional src declarations for different font weights or formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* Apply the Akagi Pro font to a specific HTML element */
+  body {
+    font-family: 'Akagi Pro', sans-serif;
+  }
+

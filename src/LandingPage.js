@@ -4,6 +4,7 @@ import image2 from "../src/images/sri-what-we-do-overlay.png";
 import image3 from "../src/images/sri-what-we-do-long-term-partner.png";
 import image4 from "../src/images/sri-government-auctions.png";
 import image5 from "../src/images/sri-investing-in-property.png";
+import image6 from "../src/images/sri-what-we-value-overlay.png";
 function LandingPage() {
   return (
     <div>
@@ -190,6 +191,80 @@ style={{
 
     </div>
     {/* end third section */}
+    {/* fourth section */}
+    <div
+      style={{
+        width: "100%",
+        height: "35rem",
+        backgroundImage: `url(${image6})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "5rem",
+    
+        backgroundPosition: "10% 75px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
+      }}>
+        <div 
+        style={{
+            marginLeft: "20rem",
+            marginRight: "20rem",
+            width: "100%",
+            display: "flex",
+            flexDirection: "row",
+            // border: "1px solid black",
+        }}>
+            <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "50%",
+                borderRight: "1px solid #f36B3f",
+                padding: "2rem"
+            }}>
+            <h5
+        style={{ color: "grey", float: "left", marginBottom: "1rem" }}
+        >
+            WHAT WE VALUE</h5>
+            <p>
+            Relationships are the heart of our business. Our success is driven by our dedication to our clients’ needs, maintaining steady communication throughout all processes, and building lasting partnerships rooted in trust. 
+            </p>
+            </div>
+            <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "50%",
+                padding: "2rem"
+            }}>
+                <h5
+        style={{ color: "#f36B3f", marginBottom: "1rem" }}
+        >
+            Learn more about our history and who we are.
+        </h5>
+        <button
+        className="btn rounded-pill"
+        style={{
+            backgroundColor: "black",
+            color: "white",
+            width: "15rem",
+            height: "3rem"
+        }}
+    >
+        MEET THE TEAM
+    </button>
+
+
+                </div>
+        </div>
+
+
+      </div>
+      {/* end of fourth section */}
     </div>
     
 
