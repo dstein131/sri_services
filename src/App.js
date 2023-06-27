@@ -7,6 +7,7 @@ import Company from "./Company";
 import HowWeWork from "./HowWeWork";
 import Partners from "./Partners";
 import Investing from "./Investing";
+import Support from "./Support";
 import Footer from "./Footer";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/work" element={<HowWeWork />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/investing" element={<Investing />} />
+          <Route path="/support" element={<Support />} />
         </Routes>
         <Footer />
      
