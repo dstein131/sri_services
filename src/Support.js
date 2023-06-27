@@ -69,7 +69,7 @@ function Support() {
       <div
         style={{ padding: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'column'}}
         >
-            
+
             <h3
             style={{ color: '#F26B3F'}}
             >Need to contact SRI?</h3>
@@ -79,14 +79,14 @@ function Support() {
             <p>Use our <a 
             style={{ textDecoration: 'none', color: '#F26B3F'}}
             href='https://help.sriservices.com/_hcms/mem/login?__hstc=199601388.05e43f98018768f20d1dd3fb860ba766.1685564802941.1687830851881.1687867233484.8&__hssc=199601388.3.1687867233484&__hsfp=771306454&redirect_url=https%3A%2F%2Fhelp.sriservices.com%2Ftickets-view%3F__hstc%3D199601388.05e43f98018768f20d1dd3fb860ba766.1685564802941.1687830851881.1687867233484.8%26__hssc%3D199601388.3.1687867233484%26__hsfp%3D771306454'
-            target='_blank'
+            
             >customer portal </a>
             to check on the status of an existing ticket.
 You may also try searching our knowledge base for helpful articles which may answer your question.</p>
     <p>You may also try searching our <a 
     href='https://help.sriservices.com/knowledge?__hstc=199601388.05e43f98018768f20d1dd3fb860ba766.1685564802941.1687830851881.1687867233484.8&__hssc=199601388.3.1687867233484&__hsfp=771306454'
     style={{ textDecoration: 'none', color: '#F26B3F'}}
-    target='_blank' >
+     >
 
     knowledge base </a> for helpful articles which may answer your question.</p>
 
