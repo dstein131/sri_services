@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 
+import image1 from "../src/images/sri-contact-header.png";
+
 function Support() {
   useEffect(() => {
     const scriptId = 'hubspot-forms-script';
@@ -46,6 +48,24 @@ function Support() {
 
   return (
     <div>
+               <div
+        style={{
+          width: "100%",
+          height: "25rem",
+          backgroundImage: `url(${image1})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "right top",
+          display: "flex",
+          alignItems: "center",
+        }}>
+            <h1
+            style={{
+                color: "White",
+                marginLeft: "10rem",
+            }}
+            >Support</h1>
+        </div>
       <div
         style={{ padding: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'column'}}
         >
