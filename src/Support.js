@@ -69,6 +69,7 @@ function Support() {
       <div
         style={{ padding: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'column'}}
         >
+            
             <h3
             style={{ color: '#F26B3F'}}
             >Need to contact SRI?</h3>
