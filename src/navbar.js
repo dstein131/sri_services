@@ -23,7 +23,7 @@ const Navbar = () => {
                 Services
               </Link>
               <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
-                <li><a className="dropdown-item" href="/lienAssist">Lien Assist</a></li>
+                <li><a className="dropdown-item" href="/lienassist">Lien Assist</a></li>
                 <li><a className="dropdown-item" href="/zeus">Zeus Auction System</a></li>
                 <li><a className="dropdown-item" href="/tms">Taxsale Management System</a></li>
                 <li><a className="dropdown-item" href="/sheriff">Sheriff Sales</a></li>
