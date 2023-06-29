@@ -3,7 +3,7 @@ import React from "react";
 function Sheriff() {
     return (
         <div>
-           <div className="w-100 d-flex justify-content-center align-items-center m-5"> 
+           <div className="w-100 d-flex justify-content-center align-items-center m-5 flex-column">
             <img 
                 src="https://fg-a.com/under-construction/1-construction-animated-2.gif" 
                 alt="Under construction" 
