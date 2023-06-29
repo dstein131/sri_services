@@ -48,6 +48,15 @@ function LienAssist() {
                 }}
                 
                 >Our brand-new service - <b>Lien Assist</b> - makes the entire lien process quicker and easier, with less back and forth</h4>
+                <div className="mt-4 d-flex justify-content-center align-items-center">
+                <ul>
+                    <li><b>Sewer Liens</b></li>
+                    <li><b>Mowing Liens</b></li>
+                    <li><b>Demolition Liens</b></li>
+                    <li><b>Nuisance Liens</b></li>
+
+                </ul>
+                </div>
             </div>
             <div 
             style={{
