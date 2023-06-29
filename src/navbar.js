@@ -19,15 +19,16 @@ const Navbar = () => {
               <Link className="nav-link" to="/company">Company</Link>
             </li>
             <li className="nav-item dropdown">
-              <Link className="nav-link dropdown-toggle" to="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <Link className="nav-link dropdown-toggle" to="" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Services
               </Link>
               <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
-                <li><a className="dropdown-item" href="/lienassist">Lien Assist</a></li>
-                <li><a className="dropdown-item" href="/zeus">Zeus Auction System</a></li>
-                <li><a className="dropdown-item" href="/tms">Taxsale Management System</a></li>
-                <li><a className="dropdown-item" href="/sheriff">Sheriff Sales</a></li>
-              </ul>
+    <li><Link className="dropdown-item" to="/lienassist">Lien Assist</Link></li>
+    <li><Link className="dropdown-item" to="/zeus">Zeus Auction System</Link></li>
+    <li><Link className="dropdown-item" to="/tms">Taxsale Management System</Link></li>
+    <li><Link className="dropdown-item" to="/sheriff">Sheriff Sales</Link></li>
+</ul>
+
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/work">How We Work</Link>
