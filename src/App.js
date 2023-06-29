@@ -11,6 +11,7 @@ import Support from "./Support";
 import Services from "./Services";
 import LienAssist from "./lienAssist";
 import TMS from "./TMS";
+import Zeus from "./Zeus";
 import Footer from "./Footer";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/lienAssist" element={<LienAssist />} />
           <Route path="/tms" element={<TMS />} />
+          <Route path="/zeus" element={<Zeus />} />
         </Routes>
         <Footer />
      

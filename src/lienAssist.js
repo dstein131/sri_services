@@ -1,5 +1,6 @@
 import React from "react";
 import image1 from "../src/images/lap.png";
+import { Link } from 'react-router-dom';
 
 function LienAssist() {
     return (
@@ -58,7 +59,11 @@ function LienAssist() {
             </div>
             <div 
             style={{
-                width: "50%"
+                width: "50%",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "start",
+                justifyContent: "center",
             }}>
             <ul className="mt-2"><b>Clean, Uniform Documents</b>
                 <li>SRI eliminates uncertainty regardng lien amounts and associated fees.</li>
@@ -82,6 +87,13 @@ function LienAssist() {
                 <li>Generate reports to track the status of your outstanding liens.</li>
                 <li>View projected settlement distributions for easier balancing of funds</li>
             </ul>
+            <div className="w-100 d-flex justify-content-center align-items-center">
+            <Link to="/support">
+            <button id="lapBtn" className="btn mb-3 btn-primary">
+              Inquire about Lien Assist
+            </button>
+          </Link>
+          </div>
             </div>
         </div>
 
