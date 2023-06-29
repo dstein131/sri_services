@@ -18,6 +18,17 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/company">Company</Link>
             </li>
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li><a className="dropdown-item" href="/lienAssist">Lien Assist</a></li>
+                <li><a className="dropdown-item" href="/zeus">Zeus Auction System</a></li>
+                <li><a className="dropdown-item" href="/tms">Taxsale Management System</a></li>
+                <li><a className="dropdown-item" href="/sheriff">Sheriff Sales</a></li>
+              </ul>
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/work">How We Work</Link>
             </li>
@@ -32,19 +43,19 @@ const Navbar = () => {
                 Resources
               </Link>
               <ul className="dropdown-menu" aria-labelledby="resourcesDropdown">
-                <li><Link className="dropdown-item" to="https://properties.sriservices.com/properties?searchText=&saleType=&saleFormat=&state=&county=&saleStatus=&saleDate=AF&saleDateVal=&sortBy=&sortOrder=">Search Property</Link></li>
-            
+                <li><a className="dropdown-item" href="https://properties.sriservices.com/properties?searchText=&saleType=&saleFormat=&state=&county=&saleStatus=&saleDate=AF&saleDateVal=&sortBy=&sortOrder=">Search Property</a></li>
               </ul>
             </li>
-          
-                
             <li className="nav-item">
-  <Link className="nav-link" to="/support">Support</Link>
-
+              <Link className="nav-link" to="/support">Support</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="https://help.sriservices.com/knowledge?__hstc=199601388.05e43f98018768f20d1dd3fb860ba766.1685564802941.1687804007782.1687812803844.5&__hssc=199601388.15.1687812803844&__hsfp=771306454">Help</Link>
+              <a className="nav-link" href="https://help.sriservices.com/knowledge?__hstc=199601388.05e43f98018768f20d1dd3fb860ba766.1685564802941.1687804007782.1687812803844.5&__hssc=199601388.15.1687812803844&__hsfp=771306454">Help</a>
             </li>
+            {/* <li className="nav-item">
+              <Link className="nav-link" to="/properties">Properties</Link>
+            </li> */}
+         
           </ul>
         </div>
       </div>

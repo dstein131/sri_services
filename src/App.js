@@ -8,6 +8,8 @@ import HowWeWork from "./HowWeWork";
 import Partners from "./Partners";
 import Investing from "./Investing";
 import Support from "./Support";
+import Services from "./Services";
+import LienAssist from "./lienAssist";
 import Footer from "./Footer";
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route path="/partners" element={<Partners />} />
           <Route path="/investing" element={<Investing />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/lienAssist" element={<LienAssist />} />
         </Routes>
         <Footer />
      
