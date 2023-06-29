@@ -30,12 +30,12 @@ function LienAssist() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            paddingLeft: "7rem",
+            paddingLeft: "1rem",
             paddingRight: "7rem",
         }}>
             <div
             style={{
-                width: "40%",
+                width: "50%",
                 color: "#F26B3F",
                 paddingRight: "2rem"
               
@@ -58,7 +58,7 @@ function LienAssist() {
             </div>
             <div 
             style={{
-                width: "60%"
+                width: "50%"
             }}>
             <ul className="mt-2"><b>Clean, Uniform Documents</b>
                 <li>SRI eliminates uncertainty regardng lien amounts and associated fees.</li>
