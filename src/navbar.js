@@ -45,6 +45,7 @@ const Navbar = () => {
               </Link>
               <ul className="dropdown-menu" aria-labelledby="resourcesDropdown">
                 <li><a className="dropdown-item" href="https://properties.sriservices.com/properties?searchText=&saleType=&saleFormat=&state=&county=&saleStatus=&saleDate=AF&saleDateVal=&sortBy=&sortOrder=">Search Property</a></li>
+                <li><Link className="dropdown-item" to="/links">Title Company Resources</Link></li>
               </ul>
             </li>
             <li className="nav-item">
@@ -55,6 +56,9 @@ const Navbar = () => {
             </li>
             {/* <li className="nav-item">
               <Link className="nav-link" to="/properties">Properties</Link>
+            </li> */}
+            {/* <li className="nav-item">
+              <Link className="nav-link" to="/links">Title Company Links</Link>
             </li> */}
          
           </ul>

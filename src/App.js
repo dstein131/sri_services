@@ -14,6 +14,7 @@ import TMS from "./TMS";
 import Zeus from "./Zeus";
 import Sheriff from "./Sheriff";
 import Footer from "./Footer";
+import Links from "./Links";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/tms" element={<TMS />} />
           <Route path="/zeus" element={<Zeus />} />
           <Route path="/sheriff" element={<Sheriff />} />
+          <Route path="/links" element={<Links />} />
         </Routes>
         <Footer />
      
